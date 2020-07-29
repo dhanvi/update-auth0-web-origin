@@ -1,0 +1,9 @@
+name: 'update auth0 web origin'
+author: Tummala Dhanvi <dhanvicse@gmail.com>
+description: 'Github action to update auth0 web origin'
+branding:
+  icon: 'shield'
+  color: 'white'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
